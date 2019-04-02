@@ -25,17 +25,35 @@ Navigate towards the appropriate folder by using cd commands:
 
 The following command input will respond with the following API
 
-**Bands in Town**
+**concert-this = Bands in Town**
+
+information printed will include:
+
+* Name of the Venue
+* Venue location
+* Date of the Event
+
+
+*example*
 ```
 node liri.js concert-this <artist/band name here>  
 ```
-
 This would be the results:
 
 ![](image/2.PNG)
 
 
-**Spotify**
+**spotify-this-song = Spotify**
+
+information printed will include:
+
+* Artist(s)
+* The song's name
+*A preview link of the song from Spotify
+
+
+*example*
+
 ```
 node liri.js spotify-this-song '<song name here>' 
 ```
@@ -43,10 +61,22 @@ node liri.js spotify-this-song '<song name here>'
 This would be the results:
 ![](image/3.PNG)
 
+* Title of the movie
+* Year the movie came out
+* IMDB Rating of the movie.* Rotten Tomatoes Rating of the movie
+* Country where the movie was produced
+* Language of the movie
+* Plot of the movie
+* Actors in the movie
 
 
+**movie-this = IMDB**
 
-**IMDB**
+information printed will include:
+
+
+*example*
+
 ```
 node liri.js movie-this '<movie name here>' 
 ```
@@ -61,8 +91,10 @@ This would be the results:
 
 
 **do-what-it-says** 
+
 the command will take the text inside of random.txt and then use it to call one of LIRI's commands.
 
+*example*
 ```
 node liri.js do=what-it-says 
 ```
