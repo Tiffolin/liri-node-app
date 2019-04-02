@@ -1,124 +1,89 @@
 # LIRI BOT
 
-The user can access various information (refercing the 3 APIs below) based on the type of commend they input. 
-Bands in Town
-Spotify
-IMDB
-
-the use can access information based on the type of command they input
-
-
-## Getting Started
-
-To access the LIRI BOT, download the package and open the Terminal
-
-Navigate towardsthe appropriate folder by using cd commands
-
-
-
-The following command input will respond with the following API
-
-Bands in Town
-```
-node liri.js concert-this <artist/band name here>  
-```
-
-
-
-Spotify
-```
-node liri.js spotify-this-song '<song name here>' 
-```
-
-
-
-
-
-
-IMDB
-```
-node liri.js movie-this '<movie name here>' 
-```
-
-
-
-
-
-do-what-it-says Using the fs Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
-```
-node liri.js movie-this '<movie name here>' 
-```
-
+The user can access various information based on the type of commend they input.
+*API referenced in this project:*
+* Bands in Town
+* Spotify
+* IMDB
 
 
 
 ### Prerequisites
 
 You will need your own spofity key and secret to input in an .env file
+![](image/envfile.PNG)
 
 
-[]
+## Getting Started
+
+To access the LIRI BOT, download the package and open the Terminal
+
+Navigate towards the appropriate folder by using cd commands:
 
 
-### Installing
+![](image/1.PNG)
 
-A step by step series of examples that tell you how to get a development env running
+The following command input will respond with the following API
 
-Say what the step will be
-
+**Bands in Town**
 ```
-Give the example
-```
-
-And repeat
-
-```
-until finished
+node liri.js concert-this <artist/band name here>  
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+This would be the results:
 
-## Running the tests
+![](image/2.PNG)
 
-Explain how to run the automated tests for this system
 
-### Break down into end to end tests
-
-Explain what these tests test and why
-
+**Spotify**
 ```
-Give an example
+node liri.js spotify-this-song '<song name here>' 
 ```
 
-### And coding style tests
+This would be the results:
+![](image/3.PNG)
 
-Explain what these tests test and why
+
+
+
+**IMDB**
+```
+node liri.js movie-this '<movie name here>' 
+```
+This would be the results:
+![](image/4.PNG)
+
+
+NOTE:  If the user does not enter a movie name, the default movie searched will be Mr. Nobody
+
+This would be the results:
+![](image/5.PNG)
+
+
+**do-what-it-says** 
+the command will take the text inside of random.txt and then use it to call one of LIRI's commands.
 
 ```
-Give an example
+node liri.js do=what-it-says 
 ```
 
-## Deployment
+The text file referenced
 
-Add additional notes about how to deploy this on a live system
+![](image/6.PNG)
 
-## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+The result in the terminal
 
-## Contributing
+![](image/7.PNG)
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+## Video Demonstration
 
-## Versioning
+(https://drive.google.com/file/d/1SLDawY40DxncYyKjV9n-unL5caId0WL3/view)
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
-* **Tiffany Lin** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Tiffany Lin** 
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
