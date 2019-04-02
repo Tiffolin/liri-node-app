@@ -1,6 +1,6 @@
 # LIRI BOT
 
-The user can access various information based on the type of commend they input.
+The user can access various information based on the type of command they input.
 *API referenced in this project:*
 * Bands in Town
 * Spotify
