@@ -49,7 +49,7 @@ information printed will include:
 
 * Artist(s)
 * The song's name
-*A preview link of the song from Spotify
+* A preview link of the song from Spotify
 
 
 *example*
@@ -117,12 +117,10 @@ The result in the terminal
 
 * **Tiffany Lin** 
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 
-* Adrian for trouble-shooting
+* Adrian Pearman for fixing my .env
